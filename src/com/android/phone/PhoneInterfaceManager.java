@@ -368,7 +368,6 @@ public class PhoneInterfaceManager extends ITelephony.Stub {
                         .obtainMessage(MESSAGE_SET_PREFERRED_NETWORK_TYPE));
         return;
     }
-
     private boolean showCallScreenInternal(boolean specifyInitialDialpadState,
                                            boolean showDialpad) {
         if (!PhoneGlobals.sVoiceCapable) {
